@@ -1,0 +1,91 @@
+ 
+#root {
+    font: 30px Arial Helvetica sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-gap: 150px;
+    justify-items: center;
+    align-items: center;
+}
+
+.Far-Azmaara {
+    width: 100%;
+    font-size: 15px;
+    font: 18px Arial Helvetica sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    margin: 20px 0 0 0;
+}
+
+
+
+.status {
+    margin: 0 0 10px 0;
+    font: 50px bold rgb(195, 47, 47) Arial Helvetica sans-serif;
+    background-color: aqua;
+    border-radius: 1rem;
+   border-style: solid;
+   border-color: slateblue;
+}
+
+
+
+.square {
+    
+    
+    background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+    border: 2px solid purple;
+    font: 50px bold black Arial Helvetica sans-serif;
+    float: left;
+    line-height: 34px;
+    height: 100px;
+    margin: -1px -1px -1px -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+.square:focus {
+    outline: none;
+}
+
+
+.game {
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+
+button {
+    margin: 20px 0 0 0;
+    padding: 3%;
+    border-radius: 7px;
+}
+
+.btn,#btn{
+    color:#d30584;
+    font-weight: 500;
+}
+
+
+button:disabled {
+    color: black;
+}
+
+
+
